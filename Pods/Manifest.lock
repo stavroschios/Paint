@@ -1,0 +1,20 @@
+PODS:
+  - SSSwiftUIGIFView (1.0.0)
+  - SwiftyGif (5.4.2)
+
+DEPENDENCIES:
+  - SSSwiftUIGIFView
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - SSSwiftUIGIFView
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  SSSwiftUIGIFView: f109262cd0baff190b58b519c0e94f7622c428d4
+  SwiftyGif: dec758a9dd3d278e5a855dbf279bf062c923c387
+
+PODFILE CHECKSUM: 036310fa315dd7d518c1ca82f722817da8e960a3
+
+COCOAPODS: 1.11.2

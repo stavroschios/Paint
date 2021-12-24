@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A33017D57B77867800CE2BE34DBD58 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFFD96D6508C2A375D9B71D81DC3AF /* NSImageView+SwiftyGif.swift */; };
+		14F321E50DEAA838D360FDF97EE2C7B0 /* SwiftUIGIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D148C498C6853E4598388A3EAD9E31 /* SwiftUIGIFPlayerView.swift */; };
+		1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEA8575932AE6329997D54EA871615 /* SwiftyGifManager.swift */; };
+		2FF7211C5466F8C30D4281D3C8A41670 /* SSSwiftUIGIFView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C175C59C76815A4027D401FDA43595 /* SSSwiftUIGIFView-dummy.m */; };
+		3A40F93E84BD940D521E114753666B42 /* Pods-Paint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08109F386C833CE6F6723CA7F5A1F86A /* Pods-Paint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDF56BBD1AB066276AE4D7655E8A0B0 /* Pods-Paint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C838808BEC51F8C42C3C8BABAA56FBF3 /* Pods-Paint-dummy.m */; };
+		585A1352414FDDFA74D647B0E560406C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		804EC94C47BD9029F24490A228E0ADE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D049070C9A3E7ED6BFF93445B937AF /* ObjcAssociatedWeakObject.swift */; };
+		908D9E786C0E3A791A872EB031390275 /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A55B38A095E8D95589F9F8822E0006 /* GIFPlayerView.swift */; };
+		90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC416BD78BFB605B6466CDFEC5CB7D2 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC995504189161692616F9430985FDB0 /* SSSwiftUIGIFView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 884D6B0D95497688162C238F881D3583 /* SSSwiftUIGIFView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55CFBC13D4AE89B4007ABBF1DCE69E /* UIImage+SwiftyGif.swift */; };
+		E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB80FD0091611B4679EB1B66F6FD669 /* SwiftyGif-dummy.m */; };
+		EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337755B44E15F51822097DB30905A545 /* NSImage+SwiftyGif.swift */; };
+		FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA30F4620590C8FD19EAA0FAA66BCF /* UIImageView+SwiftyGif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2491B1F2199BEE94D10246FBF2D0A0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		D6558BD8FE4DED78B569616DD18E3926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE69FE8AB101AD37628CA84F6EB71358;
+			remoteInfo = SSSwiftUIGIFView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08109F386C833CE6F6723CA7F5A1F86A /* Pods-Paint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Paint-umbrella.h"; sourceTree = "<group>"; };
+		0967D347626A9BC05216A0EF6C85F525 /* SSSwiftUIGIFView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSSwiftUIGIFView.modulemap; sourceTree = "<group>"; };
+		09A55B38A095E8D95589F9F8822E0006 /* GIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFPlayerView.swift; path = Source/GIFPlayerView.swift; sourceTree = "<group>"; };
+		11D148C498C6853E4598388A3EAD9E31 /* SwiftUIGIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIGIFPlayerView.swift; path = Source/SwiftUIGIFPlayerView.swift; sourceTree = "<group>"; };
+		337755B44E15F51822097DB30905A545 /* NSImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+SwiftyGif.swift"; path = "SwiftyGif/NSImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		36A33017D57B77867800CE2BE34DBD58 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		3A22AEF30C5F7057C5D89549186D8513 /* Pods-Paint */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Paint"; path = Pods_Paint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		432F1ED42F4E5F6A332B3E3B9E974DE7 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		5D18E8AF1F891309E3D73C6C8249CD98 /* SSSwiftUIGIFView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.debug.xcconfig; sourceTree = "<group>"; };
+		6014D906DED7778E9FE2D1B76EAFD021 /* SSSwiftUIGIFView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.release.xcconfig; sourceTree = "<group>"; };
+		68E276272DB6CD091CEA2FACF578BC87 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		6BB80FD0091611B4679EB1B66F6FD669 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7446555B9C0247C31AF756D771C8E6DB /* Pods-Paint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Paint.modulemap"; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84658F7E4F345A1E70BAF0EB0920A0EA /* Pods-Paint-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Paint-frameworks.sh"; sourceTree = "<group>"; };
+		86CA30F4620590C8FD19EAA0FAA66BCF /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		884D6B0D95497688162C238F881D3583 /* SSSwiftUIGIFView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-umbrella.h"; sourceTree = "<group>"; };
+		98D049070C9A3E7ED6BFF93445B937AF /* ObjcAssociatedWeakObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjcAssociatedWeakObject.swift; path = SwiftyGif/ObjcAssociatedWeakObject.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BEA8575932AE6329997D54EA871615 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		A8C175C59C76815A4027D401FDA43595 /* SSSwiftUIGIFView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSSwiftUIGIFView-dummy.m"; sourceTree = "<group>"; };
+		AEB6ACD9ADF682233C56EC292828BA55 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		B18DECF730C71098BE419262A8309DA1 /* Pods-Paint-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paint-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6F658CEC1D4C6E266B9483B3938FC9A /* Pods-Paint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paint-Info.plist"; sourceTree = "<group>"; };
+		B788BD80C9E2D7F9AE86EEBAE12C2B1F /* SSSwiftUIGIFView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSSwiftUIGIFView-Info.plist"; sourceTree = "<group>"; };
+		C38F68F9BFB34F8E372C140F7AC8FF00 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		C48FF88E9AD71E628AB78914FB70CE21 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		C838808BEC51F8C42C3C8BABAA56FBF3 /* Pods-Paint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Paint-dummy.m"; sourceTree = "<group>"; };
+		CA55CFBC13D4AE89B4007ABBF1DCE69E /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		D8BDC5E01533AE87D40293CC81B2E96A /* Pods-Paint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paint.debug.xcconfig"; sourceTree = "<group>"; };
+		D8DC4F9C26BA100DC765E7893A572A56 /* Pods-Paint-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Paint-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSSwiftUIGIFView; path = SSSwiftUIGIFView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9033C2A3A90FDA33D2E7A6ECD55BEE8 /* Pods-Paint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paint.release.xcconfig"; sourceTree = "<group>"; };
+		F9BFFD96D6508C2A375D9B71D81DC3AF /* NSImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+SwiftyGif.swift"; path = "SwiftyGif/NSImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		FB855177010AAE64AF37890B908A2B83 /* SSSwiftUIGIFView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-prefix.pch"; sourceTree = "<group>"; };
+		FBC416BD78BFB605B6466CDFEC5CB7D2 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBDB5E1A0C9BADD805241F95C3A91C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804EC94C47BD9029F24490A228E0ADE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85351E1869725AF9CD7254533D5B28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585A1352414FDDFA74D647B0E560406C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		946570E9A46F75DAE21684F69AB72A73 /* Pods-Paint */ = {
+			isa = PBXGroup;
+			children = (
+				7446555B9C0247C31AF756D771C8E6DB /* Pods-Paint.modulemap */,
+				D8DC4F9C26BA100DC765E7893A572A56 /* Pods-Paint-acknowledgements.markdown */,
+				B18DECF730C71098BE419262A8309DA1 /* Pods-Paint-acknowledgements.plist */,
+				C838808BEC51F8C42C3C8BABAA56FBF3 /* Pods-Paint-dummy.m */,
+				84658F7E4F345A1E70BAF0EB0920A0EA /* Pods-Paint-frameworks.sh */,
+				B6F658CEC1D4C6E266B9483B3938FC9A /* Pods-Paint-Info.plist */,
+				08109F386C833CE6F6723CA7F5A1F86A /* Pods-Paint-umbrella.h */,
+				D8BDC5E01533AE87D40293CC81B2E96A /* Pods-Paint.debug.xcconfig */,
+				F9033C2A3A90FDA33D2E7A6ECD55BEE8 /* Pods-Paint.release.xcconfig */,
+			);
+			name = "Pods-Paint";
+			path = "Target Support Files/Pods-Paint";
+			sourceTree = "<group>";
+		};
+		9501F2B9F0CD53CD81F667288245170C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38F68F9BFB34F8E372C140F7AC8FF00 /* SwiftyGif.modulemap */,
+				6BB80FD0091611B4679EB1B66F6FD669 /* SwiftyGif-dummy.m */,
+				432F1ED42F4E5F6A332B3E3B9E974DE7 /* SwiftyGif-Info.plist */,
+				C48FF88E9AD71E628AB78914FB70CE21 /* SwiftyGif-prefix.pch */,
+				FBC416BD78BFB605B6466CDFEC5CB7D2 /* SwiftyGif-umbrella.h */,
+				68E276272DB6CD091CEA2FACF578BC87 /* SwiftyGif.debug.xcconfig */,
+				AEB6ACD9ADF682233C56EC292828BA55 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		95BB00D31FE28320168D86A38F69A7A0 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				337755B44E15F51822097DB30905A545 /* NSImage+SwiftyGif.swift */,
+				F9BFFD96D6508C2A375D9B71D81DC3AF /* NSImageView+SwiftyGif.swift */,
+				98D049070C9A3E7ED6BFF93445B937AF /* ObjcAssociatedWeakObject.swift */,
+				36A33017D57B77867800CE2BE34DBD58 /* SwiftyGif.h */,
+				A1BEA8575932AE6329997D54EA871615 /* SwiftyGifManager.swift */,
+				CA55CFBC13D4AE89B4007ABBF1DCE69E /* UIImage+SwiftyGif.swift */,
+				86CA30F4620590C8FD19EAA0FAA66BCF /* UIImageView+SwiftyGif.swift */,
+				9501F2B9F0CD53CD81F667288245170C /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		96B1A7203204881F0149114D9CE778FC /* SSSwiftUIGIFView */ = {
+			isa = PBXGroup;
+			children = (
+				09A55B38A095E8D95589F9F8822E0006 /* GIFPlayerView.swift */,
+				11D148C498C6853E4598388A3EAD9E31 /* SwiftUIGIFPlayerView.swift */,
+				E76011DE6F5E011D47ACD76FE875325E /* Support Files */,
+			);
+			name = SSSwiftUIGIFView;
+			path = SSSwiftUIGIFView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ECC87BDF69A9DA9B0551C60637984AB5 /* Pods */,
+				D8E7B5D4A400E3B71FD85CC79AB6E3D4 /* Products */,
+				E3B4C9B4D414D204319DE028490DDBB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E7B5D4A400E3B71FD85CC79AB6E3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A22AEF30C5F7057C5D89549186D8513 /* Pods-Paint */,
+				ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B4C9B4D414D204319DE028490DDBB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				946570E9A46F75DAE21684F69AB72A73 /* Pods-Paint */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E76011DE6F5E011D47ACD76FE875325E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0967D347626A9BC05216A0EF6C85F525 /* SSSwiftUIGIFView.modulemap */,
+				A8C175C59C76815A4027D401FDA43595 /* SSSwiftUIGIFView-dummy.m */,
+				B788BD80C9E2D7F9AE86EEBAE12C2B1F /* SSSwiftUIGIFView-Info.plist */,
+				FB855177010AAE64AF37890B908A2B83 /* SSSwiftUIGIFView-prefix.pch */,
+				884D6B0D95497688162C238F881D3583 /* SSSwiftUIGIFView-umbrella.h */,
+				5D18E8AF1F891309E3D73C6C8249CD98 /* SSSwiftUIGIFView.debug.xcconfig */,
+				6014D906DED7778E9FE2D1B76EAFD021 /* SSSwiftUIGIFView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSSwiftUIGIFView";
+			sourceTree = "<group>";
+		};
+		ECC87BDF69A9DA9B0551C60637984AB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96B1A7203204881F0149114D9CE778FC /* SSSwiftUIGIFView */,
+				95BB00D31FE28320168D86A38F69A7A0 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B03FD4BF57BEE91D6E4746F8DBA06838 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A40F93E84BD940D521E114753666B42 /* Pods-Paint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B63D90B1DE89F8076D6B6C817AFD65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC995504189161692616F9430985FDB0 /* SSSwiftUIGIFView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6250923615FD738FBB9701899B04543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */,
+				90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				F6250923615FD738FBB9701899B04543 /* Headers */,
+				ED0AE9A395D326A6C08DFB5657455BFA /* Sources */,
+				70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */,
+				F76858BC3579218524AE8B626C810CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */;
+			productType = "com.apple.product-type.framework";
+		};
+		39B1415939B0FD6ADDB39C349C64ED77 /* Pods-Paint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCC8DEDF6251FDD1F240D8D52BBABC8 /* Build configuration list for PBXNativeTarget "Pods-Paint" */;
+			buildPhases = (
+				B03FD4BF57BEE91D6E4746F8DBA06838 /* Headers */,
+				9267BB8DEB4F24B995726EBEC92849E3 /* Sources */,
+				D85351E1869725AF9CD7254533D5B28E /* Frameworks */,
+				4099A19AA5930DFC30169FC1C2EE66AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D30930A97BCE593CD320E81165B755 /* PBXTargetDependency */,
+				B5EEA75F30016718CBFA6CD34524A0ED /* PBXTargetDependency */,
+			);
+			name = "Pods-Paint";
+			productName = Pods_Paint;
+			productReference = 3A22AEF30C5F7057C5D89549186D8513 /* Pods-Paint */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A38764C7D55F8767744B6790B68BD /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */;
+			buildPhases = (
+				F2B63D90B1DE89F8076D6B6C817AFD65 /* Headers */,
+				6A8FB687B998262C13451FE91EC63BB9 /* Sources */,
+				BDBDB5E1A0C9BADD805241F95C3A91C2 /* Frameworks */,
+				C5B2B2F1C8BD5BB65D1860D5C8C77BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSwiftUIGIFView;
+			productName = SSSwiftUIGIFView;
+			productReference = ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D8E7B5D4A400E3B71FD85CC79AB6E3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B1415939B0FD6ADDB39C349C64ED77 /* Pods-Paint */,
+				BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4099A19AA5930DFC30169FC1C2EE66AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B2B2F1C8BD5BB65D1860D5C8C77BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76858BC3579218524AE8B626C810CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A8FB687B998262C13451FE91EC63BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908D9E786C0E3A791A872EB031390275 /* GIFPlayerView.swift in Sources */,
+				2FF7211C5466F8C30D4281D3C8A41670 /* SSSwiftUIGIFView-dummy.m in Sources */,
+				14F321E50DEAA838D360FDF97EE2C7B0 /* SwiftUIGIFPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9267BB8DEB4F24B995726EBEC92849E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDF56BBD1AB066276AE4D7655E8A0B0 /* Pods-Paint-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0AE9A395D326A6C08DFB5657455BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */,
+				12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */,
+				8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */,
+				E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */,
+				1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */,
+				D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */,
+				FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EEA75F30016718CBFA6CD34524A0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 2491B1F2199BEE94D10246FBF2D0A0CF /* PBXContainerItemProxy */;
+		};
+		E4D30930A97BCE593CD320E81165B755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSSwiftUIGIFView;
+			target = BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */;
+			targetProxy = D6558BD8FE4DED78B569616DD18E3926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AC7B915D20758332722DE0E1F05A3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB6ACD9ADF682233C56EC292828BA55 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		712CFDAE51CE672A3670578C368E8BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6014D906DED7778E9FE2D1B76EAFD021 /* SSSwiftUIGIFView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2A60D27F0142B7CBBDC8F7FCA48BDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D18E8AF1F891309E3D73C6C8249CD98 /* SSSwiftUIGIFView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E276272DB6CD091CEA2FACF578BC87 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E231A241E32B5E439576B321400236AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BDC5E01533AE87D40293CC81B2E96A /* Pods-Paint.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Paint/Pods-Paint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Paint/Pods-Paint.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8505C33DBC10BBADF64228C2011D1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9033C2A3A90FDA33D2E7A6ECD55BEE8 /* Pods-Paint.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Paint/Pods-Paint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Paint/Pods-Paint.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCC8DEDF6251FDD1F240D8D52BBABC8 /* Build configuration list for PBXNativeTarget "Pods-Paint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E231A241E32B5E439576B321400236AD /* Debug */,
+				E8505C33DBC10BBADF64228C2011D1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A38764C7D55F8767744B6790B68BD /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A60D27F0142B7CBBDC8F7FCA48BDA7 /* Debug */,
+				712CFDAE51CE672A3670578C368E8BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */,
+				1AC7B915D20758332722DE0E1F05A3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
